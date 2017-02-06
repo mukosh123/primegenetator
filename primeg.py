@@ -10,10 +10,10 @@ def primeGenerator (num):
             else:
                 j = j + 1
         if prime:
-            prime_list.append(i) 
+            prime_list.append(i) # adding a prime number to the list
         else:
             prime = True
-    return prime_list # Add to list
+    return prime_list # return list of prime Number found
 
-print(primeGenerator(9))    
+   
 
