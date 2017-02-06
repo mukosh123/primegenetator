@@ -1,4 +1,8 @@
 def primeGenerator (num):
+    if type(num) != int:
+        return 'wrong arg'
+    if num < 0 or type(num) != int:
+        return 'wrong arg'
     prime_list = [] # define an empty list
     for i in range (1,num + 1):
         prime = True 
