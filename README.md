@@ -1,0 +1,2 @@
+# primegenetator
+Prime number generator
